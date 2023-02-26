@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Study2", "Study2\Study2.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Study3.Convert", "Study3.Convert\Study3.Convert.csproj", "{57213FF5-2303-44E4-B5FD-AA67A8042668}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Study4.Arifmetic", "Study4.Arifmetic\Study4.Arifmetic.csproj", "{6B8FCCAF-E412-4E99-BD63-F32285020B87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Study4.Arifmetic", "Study4.Arifmetic\Study4.Arifmetic.csproj", "{6B8FCCAF-E412-4E99-BD63-F32285020B87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Study5.Операция присваивания", "Study5.Операция присваивания\Study5.Операция присваивания.csproj", "{C7FC4768-C86C-49EC-AC0F-F5630E431946}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Study5.Операция присваивания", "Study5.Операция присваивания\Study5.Операция присваивания.csproj", "{C7FC4768-C86C-49EC-AC0F-F5630E431946}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Study6.Операция сравнения", "Study6.Операция сравнения\Study6.Операция сравнения.csproj", "{1969599E-908C-42C8-8866-D66FF7F99153}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{C7FC4768-C86C-49EC-AC0F-F5630E431946}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7FC4768-C86C-49EC-AC0F-F5630E431946}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7FC4768-C86C-49EC-AC0F-F5630E431946}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1969599E-908C-42C8-8866-D66FF7F99153}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1969599E-908C-42C8-8866-D66FF7F99153}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1969599E-908C-42C8-8866-D66FF7F99153}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1969599E-908C-42C8-8866-D66FF7F99153}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
