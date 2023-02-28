@@ -34,3 +34,19 @@ bool c5 = a5 >= b5;//true
 bool d5 = a5 >= 25;// false
 
 
+////Логические  операции
+// "||" Операция логического сложения. возврвщает true, если хотя бы один из оперантов возвращает true.
+bool x = ( 5 > 6 ) || ( 4 < 6 );// 5 > 6 - false, 4 < 6 - true, поэтому возвращается true
+
+// "&&" Операция логического умножения. Возвращает true, если оба операнта одновременно равны.
+bool x1 = ( 5 > 6 ) && ( 4 < 6 );// 5>6 - false, 4<6 - true, поэтому возвращается false
+
+//test
+bool isOne = true;
+bool isTwo = false;
+bool isResaute = isOne || isTwo;//true
+bool isResult = !isOne || isTwo;//false
+bool isResult2 = ( !isOne || isTwo ) && ( !isResaute );//false
+bool isResult3 = ( isOne || !isTwo ) && ( isResaute );//true
+bool isResult4 = !( !isTwo && isOne ) || ( isResaute );// !(true) || (true) / false || true, будет true
+bool isResult5 = !( !isTwo && isOne ) && ( isResaute );// false && true, будет false
