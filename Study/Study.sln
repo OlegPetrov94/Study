@@ -15,9 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Study5.Операция п�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Study6.Операция сравнения", "Study6.Операция сравнения\Study6.Операция сравнения.csproj", "{1969599E-908C-42C8-8866-D66FF7F99153}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Study7.IF&ELSE", "Study7.IF&ELSE\Study7.IF&ELSE.csproj", "{9594DAB0-C1F7-42AA-8639-5965DA04DF93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Study7.IF&ELSE", "Study7.IF&ELSE\Study7.IF&ELSE.csproj", "{9594DAB0-C1F7-42AA-8639-5965DA04DF93}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Study7. Задача", "Study7. Задача\Study7. Задача.csproj", "{71AF0059-5E41-40B4-8750-0F1E6D6185D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Study7. Задача", "Study7. Задача\Study7. Задача.csproj", "{71AF0059-5E41-40B4-8750-0F1E6D6185D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Study7.Задача№2", "Study7.Задача№2\Study7.Задача№2.csproj", "{01D3E26D-2217-4A39-A4DA-A8FA52E98BAF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{71AF0059-5E41-40B4-8750-0F1E6D6185D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71AF0059-5E41-40B4-8750-0F1E6D6185D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71AF0059-5E41-40B4-8750-0F1E6D6185D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01D3E26D-2217-4A39-A4DA-A8FA52E98BAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01D3E26D-2217-4A39-A4DA-A8FA52E98BAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01D3E26D-2217-4A39-A4DA-A8FA52E98BAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01D3E26D-2217-4A39-A4DA-A8FA52E98BAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
