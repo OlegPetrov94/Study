@@ -76,3 +76,81 @@ else
 {
     Console.WriteLine("Неизвестное имя");
 }
+
+//switch 
+string name2 = "Alex";
+string result = string.Empty;
+
+if (name == "Tom")
+{
+    ////Console.WriteLine("Вас зовут Tomas");
+    result = "Вас зовут Tomas";
+}
+else if (name == "Bob")
+{
+    Console.WriteLine("Вас зовут Robert");
+}
+else if (name == "Mike")
+{
+    Console.WriteLine("Вас зовут Michel");
+}
+else
+{
+    Console.WriteLine("Неизвестное имя");
+}
+Console.WriteLine(result);
+
+string name1 = "Dima";
+string result1 = string.Empty;
+
+switch (name1)
+{
+    case "Bob":
+        Console.WriteLine("Ваше имя - Bob");
+        break;
+    case "Alex":
+        Console.WriteLine("Ваше имя - Alex");
+        break;
+    case "Dima":
+        Console.WriteLine("Ваше имя - Dima");
+        break;
+    case "Oleg":
+        Console.WriteLine("Ваше имя - Oleg");
+        break;
+    default:
+        Console.WriteLine("Неизвестное имя");
+        break;
+}
+Console.WriteLine(result1);
+
+////Проверка на "null"
+
+string inputText = null;
+string result100 = string.Empty;
+//первый способ
+if (inputText == null)
+{
+    result100 = "обнаружен null";
+}
+else
+{
+    result100 = inputText;
+}
+Console.WriteLine(result100);
+//второй способ
+result100 = inputText ?? "Обнаружен null";
+Console.WriteLine(result100);
+// третий способ - тернарные выражения
+result100 = inputText == null ? "обнаружен Null" : inputText;
+Console.WriteLine(result100);
+// четвертый способ - switch
+switch (inputText)
+{
+    case null:
+        result100 = "Обнаружен null";
+        break;
+    default:
+        result100 = inputText;
+        break;
+}
+Console.WriteLine(result100);
