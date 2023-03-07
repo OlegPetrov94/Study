@@ -1,10 +1,13 @@
 ﻿//SimpleFor();
 
-Console.WriteLine("*");
-Console.WriteLine("**");
-Console.WriteLine("***");
-Console.WriteLine("****");
-Console.WriteLine("*****");
+// написать цикл 
+//Console.WriteLine("*");
+//Console.WriteLine("**");
+//Console.WriteLine("***");
+//Console.WriteLine("****");
+//Console.WriteLine("*****");
+
+
 
 static void SimpleFor()
 {
