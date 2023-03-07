@@ -12,10 +12,12 @@
 Console.WriteLine("Введите число: ");
 string ageS = Console.ReadLine();
 int age = Convert.ToInt32(ageS);
-
-for (int i = 0; i <= (2 * age -1); i++)
+string text = ""; 
+for (int i = 0; i <= age; i++)
 {
-    Console.WriteLine("*");
+    //text += "*"; 
+    text = text + "*";
+    Console.WriteLine(text);
 }
 Console.WriteLine();
 
