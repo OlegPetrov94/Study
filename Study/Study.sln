@@ -33,7 +33,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Теория", "Теори�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Study7.Задача№1", "Study7. Задача\Study7.Задача№1.csproj", "{538C7775-4B8E-47B8-9982-449CD3EC2C07}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Study8.Циклы.Задача", "Study8.Циклы.Задача\Study8.Циклы.Задача.csproj", "{689B931A-9211-433F-BA9D-B0E4FFD23D51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Study8.Циклы.Задача", "Study8.Циклы.Задача\Study8.Циклы.Задача.csproj", "{689B931A-9211-433F-BA9D-B0E4FFD23D51}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -115,6 +115,7 @@ Global
 		{0EEB4F75-C451-47BA-99A0-1AA0BE203850} = {B44E30D0-CE96-4FA7-99AE-C2D26C309532}
 		{91C170D8-DF36-4277-8827-A0C106EFA694} = {95F7ADC1-E5C5-422A-9CE8-BF561AB73FBA}
 		{538C7775-4B8E-47B8-9982-449CD3EC2C07} = {95F7ADC1-E5C5-422A-9CE8-BF561AB73FBA}
+		{689B931A-9211-433F-BA9D-B0E4FFD23D51} = {95F7ADC1-E5C5-422A-9CE8-BF561AB73FBA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8BE15332-6DB4-4D80-8EB6-6FE1953920EF}
