@@ -35,6 +35,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Study7.Задача№1", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Study8.Циклы.Задача", "Study8.Циклы.Задача\Study8.Циклы.Задача.csproj", "{689B931A-9211-433F-BA9D-B0E4FFD23D51}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Study8.Задача с циклами While", "while\Study8.Задача с циклами While.csproj", "{39407759-22DA-448D-8E9B-AC9A05463389}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -97,6 +99,10 @@ Global
 		{689B931A-9211-433F-BA9D-B0E4FFD23D51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{689B931A-9211-433F-BA9D-B0E4FFD23D51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{689B931A-9211-433F-BA9D-B0E4FFD23D51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39407759-22DA-448D-8E9B-AC9A05463389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39407759-22DA-448D-8E9B-AC9A05463389}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39407759-22DA-448D-8E9B-AC9A05463389}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39407759-22DA-448D-8E9B-AC9A05463389}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -116,6 +122,7 @@ Global
 		{91C170D8-DF36-4277-8827-A0C106EFA694} = {95F7ADC1-E5C5-422A-9CE8-BF561AB73FBA}
 		{538C7775-4B8E-47B8-9982-449CD3EC2C07} = {95F7ADC1-E5C5-422A-9CE8-BF561AB73FBA}
 		{689B931A-9211-433F-BA9D-B0E4FFD23D51} = {95F7ADC1-E5C5-422A-9CE8-BF561AB73FBA}
+		{39407759-22DA-448D-8E9B-AC9A05463389} = {95F7ADC1-E5C5-422A-9CE8-BF561AB73FBA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8BE15332-6DB4-4D80-8EB6-6FE1953920EF}

@@ -1,4 +1,30 @@
-﻿ObratniuOtschet();
+﻿ElkaWhile();
+
+//Написать программу которая спрашивает сколько раз нужно пройтись по циклу если число делиться на 3 без остатка, то мы не выводим это число на экран, если число = 16 то цикл дальше не выполняется 
+Console.WriteLine(" Введите число ");
+string resault = Console.ReadLine();
+int resault1 = Convert.ToInt32(resault);
+int i = 0;
+while ( i < resault1 )
+{
+    if (i == 16)
+    {
+        break;
+    }
+
+    if (i % 3 == 0)
+    {
+        continue;
+    }
+
+    Console.WriteLine(i);
+    i++;
+}
+
+
+//ObratniuOtschet();
+
+#region For
 
 static void Elka()
 {
@@ -70,3 +96,6 @@ static void ObratniuOtschet()
         }
     }
 }
+
+
+#endregion
